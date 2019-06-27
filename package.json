@@ -1,12 +1,12 @@
 {
-  "name": "pho3nix-element",
+  "name": "pho3nix-menu-button",
   "version": "1.0.0",
   "contributors": [
     "Phoenix Group LLC"
   ],
-  "main": "build/esm-bundled/src/pho3nix-element.js",
+  "main": "build/esm-bundled/src/pho3nix-menu-button.js",
   "license": "BSD-3-Clause",
-  "repository": "PhoenixGroup/pho3nix-element",
+  "repository": "PhoenixGroup/pho3nix-menu-button",
   "scripts": {
     "start": "gulp serve",
     "build": "tsc && polymer build",

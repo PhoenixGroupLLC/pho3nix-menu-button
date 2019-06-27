@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Pho3nix-Element</title>
+    <title>pho3nix-menu-button</title>
     <style>
       body {
         margin: 0;
@@ -14,21 +14,25 @@
         flex-direction: column;
         background: #555;
       }
-      pho3nix-element {
-        --bg-color: white;
+      pho3nix-menu-button {
+        --color: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+        background: black;
+        border-radius: 50%;
+        padding: 1em;
+        align-self: flex-start;
       }
     </style>
   </head>
   <body>
-    <pho3nix-element></pho3nix-element>
+    <pho3nix-menu-button></pho3nix-menu-button>
     <noscript>
       Please enable JavaScript to view this website.
     </noscript>
     <!-- Load webcomponents-loader.js to check and load any polyfills your browser needs -->
     <script src="node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
     <script type="module">
-      import '/src/pho3nix-element.js';
-      // import '/build/esm-bundled/src/pho3nix-element.js'
+      import '/src/pho3nix-menu-button.js';
+      // import '/build/esm-bundled/src/pho3nix-menu-button.js'
     </script>
   </body>
 </html>

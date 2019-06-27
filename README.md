@@ -2,12 +2,12 @@
 
 > ## 🛠 Status: Done
 
-# Pho3nix-element
+# Pho3nix-menu-button
 
-Boilerplate for lit-element development
+Simple menu button with a nice animation. Based on lit-element.
 
 ## Example:
 
 ```HTML
-    <pho3nix-element></pho3nix-element>
+    <pho3nix-menu-button [checked]></pho3nix-menu-button>
 ```
